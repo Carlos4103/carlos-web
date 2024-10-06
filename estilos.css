@@ -1,0 +1,171 @@
+html{
+    scroll-behavior: smooth;
+}
+html p,
+html pre,
+html h3,
+html a{
+    font-family: "Montserrat", "Playfair Display", sans-serif;
+}
+body{
+    margin: 0;
+}
+.logo{
+    background-color:#be1622 ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 0; 
+    margin-bottom: 0;
+}
+.logo img{
+    padding-left: 1000px;
+}
+.nav{
+    background-color: #f9b233;
+    display: flex;
+    justify-content: space-around;
+}
+.nav a{
+    text-decoration: none;
+    color: #ffff;
+    
+}
+.p1 img{
+    max-width: 100%;
+    margin: 0;
+}
+.c-ama{
+    color: #f9b233;
+}
+.c-blanc{
+    color: #ffff;
+}
+.p-izq{
+    text-align: justify;
+    margin-left: 80%;
+}
+
+.t-1 {
+    padding-top: 300px;
+    padding-left: 200px;
+    
+}
+.p2{
+    height: 800px;
+    background-image: url(img/imagen\ completa\ bloque\ 2-02.jpg);
+   background-size: cover;
+    
+}
+.p3{
+    background-image: url(/img/bloque\ 3\ completa-02.jpg);
+    height: 800px;
+    background-size: cover;
+}
+.p3 h3{
+    padding-top: 400px;
+}
+.p4{   
+    background-image: url(img/bloque\ 4\ completo-02.jpg);
+    height: 800px;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 90px;
+}
+
+.p5{
+    background-image: url(img/boque\ 5\ completo-02.jpg);
+    height: 800px;
+    background-size: cover;
+}
+
+.p5 h3{
+padding-top: 50px;
+margin-bottom: 300px;
+padding-left: 50px;
+}
+.p5 p{
+    padding-left: 50px;
+}
+.p6{
+    background-image: url(img/bloque\ 6\ completo-02.jpg);
+    height: 800px;
+    background-size: cover;
+    display:flex;
+}
+.p6 p{
+    flex-direction: row;
+    padding-left: 300px;
+    padding-top: 600px;
+    justify-content: space-around;
+}
+.p7{
+    background-image: url(img/bloque\ 7\ completo-02.jpg);
+    height: 800px;
+    background-size: cover;
+}
+.p7 h3{
+    padding-top: 250px;
+    padding-left: 950px;
+    color: #ffff;
+}       
+.cont-form{
+ padding-left: 950px;
+ padding-top: 15px;
+ padding-right: 50px;
+}
+.cont-form form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.cont-form form p{
+    margin: 20px;
+    max-width: 250px;
+    color: #ffff;
+}
+.cont-form form .bloq{
+    grid-column: 1/3;
+}
+.cont-form form input,
+.cont-form form button{
+    width: 100%;
+    padding: .8em;
+    background-color: transparent;
+    border:3px solid #ffff;
+    outline: 0;
+    color: #ffff;
+}
+.cont-form form .max-spc{
+    max-width: 100%;
+}
+.cont-form form button{
+    background-color: #f9b233;
+    border: none;
+    max-width: 50%;
+    text-transform: uppercase;
+    padding: 1rem;
+    color: #000000;
+}
+footer{
+    background:#000000;
+    height: max-content;
+}
+
+.logo-footer{
+padding-left: 50px;
+padding-top: 50px;
+}
+.nav-foot{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    padding-left: 650px;
+    align-items: center;
+}
+.nav-foot a{
+    text-decoration: none;
+    color: #f9b233;
+    padding-top: 50px;
+    padding-bottom: 15px;
+   
+}
